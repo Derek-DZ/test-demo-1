@@ -1,11 +1,6 @@
 <template>
   <div id="app">
-    <el-input
-      @input="onChange"
-      type="text"
-      placeholder="请输入内容"
-      v-model="input">
-    </el-input>
+    <MyInput></MyInput>
     <Buttons></Buttons>
   </div>
 </template>
@@ -13,18 +8,16 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import Buttons from '@/components/Buttons.vue';
-
+import MyInput from '@/components/MyInput.vue'
 
 @Component({
   components: {
-    Buttons
+    Buttons,
+    MyInput
   },
 })
 export default class App extends Vue {
-  input?: string
-  onChange(){
-    this.$forceUpdate()
-  }
+
 }
 </script>
 

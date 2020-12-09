@@ -17,13 +17,8 @@
 
 <style lang="scss" scoped>
   .wrapper{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
-    align-items: end;
-    justify-content: end;
-    > .submit {
-      align-self: end;
-    }
+    justify-content: flex-end;
   }
 </style>
