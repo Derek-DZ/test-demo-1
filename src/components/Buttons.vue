@@ -20,5 +20,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin: 5px;
   }
 </style>

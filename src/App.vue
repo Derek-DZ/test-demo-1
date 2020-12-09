@@ -8,12 +8,12 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import Buttons from '@/components/Buttons.vue';
-import MyInput from '@/components/MyInput.vue'
+import MyInput from '@/components/MyInput.vue';
 
 @Component({
   components: {
     Buttons,
-    MyInput
+    MyInput,
   },
 })
 export default class App extends Vue {
