@@ -1,23 +1,21 @@
 <template>
   <div id="app">
     <MyInput></MyInput>
-    <Buttons></Buttons>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import Buttons from '@/components/Buttons.vue';
+import store from '@/store';
 import MyInput from '@/components/MyInput.vue';
 
 @Component({
   components: {
-    Buttons,
     MyInput,
   },
 })
 export default class App extends Vue {
-
+  store = store;
 }
 </script>
 

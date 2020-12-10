@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="button-wrapper">
     <el-button class="submit" type="primary">提交</el-button>
     <el-button class="clean">清空</el-button>
   </div>
@@ -16,7 +16,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .wrapper{
+  .button-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
