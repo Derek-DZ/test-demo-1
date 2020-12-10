@@ -1,7 +1,5 @@
-type RecordItem = {
-  type: string;
-  number: string;
-  tagName: string;
-  note: string;
-  date: string;
-}
+type TestOption = {
+  key: string;
+  value: string;
+}[]
+

@@ -1,21 +1,20 @@
 <template>
   <div id="app">
-    <MyInput></MyInput>
+    <MyCheckbox></MyCheckbox>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import store from '@/store';
-import MyInput from '@/components/MyInput.vue';
+import MyCheckbox from '@/components/MyCheckbox.vue';
 
 @Component({
   components: {
-    MyInput,
+    MyCheckbox,
   },
 })
 export default class App extends Vue {
-  store = store;
+
 }
 </script>
 
